@@ -1,0 +1,16 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "**/pipelines/**/*.yml": "azure-pipelines",
+    "pipeline.ci.yml": "azure-pipelines",
+    "**/helm/**/*": "helm",
+    "**/**/*.bicep": "bicep"
+  },
+  "[bicep]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-bicep"
+  },
+  "[helm]": {
+    "editor.formatOnSave": false
+  }
+}

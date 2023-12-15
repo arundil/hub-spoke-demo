@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "northeurope"
+    },
+    "locationShort": {
+      "value": "We"
+    },
+    "MarioAddressPrefix": {
+      "value": "10.153.0.0/24"
+    },
+    "IvanAddressPrefix": {
+      "value": "10.154.0.0/24"
+    },
+    "GunterAddressPrefix": {
+      "value": "10.155.0.0/24"
+    }
+  }
+}
